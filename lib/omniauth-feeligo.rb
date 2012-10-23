@@ -1,1 +1,1 @@
-= omniauth-feeligo
+require 'omniauth/feeligo'
