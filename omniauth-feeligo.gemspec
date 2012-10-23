@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.email = "daniel@feeligo.com"
   s.extra_rdoc_files = ["README.rdoc", "lib/omniauth-feeligo.rb"]
   s.files = ["README.rdoc", "Rakefile", "lib/omniauth-feeligo.rb", "Manifest", "omniauth-feeligo.gemspec"]
-  s.homepage = ""
+  s.homepage = "https://github.com/danielross/omniauth-feeligo"
   s.rdoc_options = ["--line-numbers", "--inline-source", "--title", "Omniauth-feeligo", "--main", "README.rdoc"]
   s.require_paths = ["lib"]
   s.rubyforge_project = "omniauth-feeligo"
