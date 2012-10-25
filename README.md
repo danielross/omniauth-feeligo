@@ -7,7 +7,7 @@ Feeligo OAuth2 Strategy for OmniAuth 1.0.
 Add to your `Gemfile`:
 
 ```ruby
-gem 'omniauth-facebook'
+gem 'omniauth-feeligo'
 ```
 
 Then `bundle install`.
