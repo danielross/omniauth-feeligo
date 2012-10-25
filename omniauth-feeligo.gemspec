@@ -6,11 +6,11 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 1.2") if s.respond_to? :required_rubygems_version=
   s.authors = ["Daniel Ross"]
-  s.date = "2012-10-23"
+  s.date = "2012-10-25"
   s.description = "Use omniauth with Feeligo."
   s.email = "daniel@feeligo.com"
-  s.extra_rdoc_files = ["README.rdoc", "lib/omniauth-feeligo.rb"]
-  s.files = ["README.rdoc", "Rakefile", "lib/omniauth-feeligo.rb", "Manifest", "omniauth-feeligo.gemspec"]
+  s.extra_rdoc_files = ["CHANGELOG", "README.rdoc", "lib/omniauth-feeligo.rb", "lib/omniauth/feeligo.rb", "lib/omniauth/feeligo/version.rb", "lib/omniauth/strategies/feeligo.rb"]
+  s.files = ["CHANGELOG", "README.rdoc", "Rakefile", "init.rb", "lib/omniauth-feeligo.rb", "lib/omniauth/feeligo.rb", "lib/omniauth/feeligo/version.rb", "lib/omniauth/strategies/feeligo.rb", "omniauth-feeligo.gemspec", "Manifest"]
   s.homepage = "https://github.com/danielross/omniauth-feeligo"
   s.rdoc_options = ["--line-numbers", "--inline-source", "--title", "Omniauth-feeligo", "--main", "README.rdoc"]
   s.require_paths = ["lib"]
